@@ -1,0 +1,166 @@
+body {
+    padding:0;
+    margin:0;
+    font-family: 'Montserrat', sans-serif;
+color: #000000;
+}
+/*Блок header*/
+.cbar__header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.cbar__header--heading{    
+margin: 0;
+font-family: 'Montserrat', sans-serif;
+color: #000000;
+width: 100%;
+position: absolute;
+text-align: center;
+}
+.cbar__header--heading-uptext{
+    font-size:xx-large;
+    font-weight: bold; 
+}
+.cbar__header--image {
+    width: 100%;
+    height: 100vh;
+
+}
+/*Блок каталога*/
+.cbar__catalog{
+    background-color:#ECECEC;
+ }
+.cbar__catalog--heading{
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    font-size:xx-large;
+    font-weight: bold;
+}
+.cbar__catalog--heading-paragraph{
+    font-size:large;
+    font-weight: lighter;
+}
+
+.cbar__catalog--item{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0 50px;
+    justify-content: space-between;
+    text-align: center;
+}
+.cbar__catalog--item-box{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.cbar__catalog--item-box-photo{
+    border: 4px solid gray;
+    border-radius: 100%;
+}
+.cbar__catalog--item-box-name{
+    font-style: normal;
+    font-size: 120%;
+    font-weight: 600;
+}
+.cbar__catalog--item-box-price{
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+.cbar__catalog--item-box-button{
+    box-shadow:  -0.3em 0 0.4em gray;
+    border-radius: 15px;
+    background-color:#9EA8FF ;
+    color: white;
+    font: 1em sans-serif;
+    border: 0;
+}
+/**Блок возможности*/
+.cbar__advantages{
+    background-color:#fff;
+}
+.cbar__advantages--headering{
+    padding-top: 50px;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+    font-size: 200%;
+    font-weight: 600;
+    text-align: center;
+}
+.cbar__advantages--item{
+    margin: 0 50px 25px;
+    text-align: left;
+}
+.cbar__advantages{
+    display: flex;
+    flex-direction: column;
+}
+.right__block--image{
+    height: 250px;
+}
+
+.left__block--image{
+    height: 250px;
+}
+.right__block{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+.left__block{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.right__block--text{
+    font-weight: 600;
+    font-size: 26px;
+    
+}
+.right__block--undertext{
+    font-weight: lighter;
+    font-size: 20px;
+}
+.left__block--text{
+    font-weight: 600;
+    font-size: 26px;
+}
+/*Блок footer*/
+.cbar__footer{
+    background-color: #494747;
+    color: white; 
+    height: 100vh;
+}
+.cbar__footer--contact{
+    margin: 0 auto;
+    position: relative;
+    padding-top: 50px;
+    text-align: center;
+    font-size: 150%;
+    width: 100%;
+    max-width: 600px
+}
+.cbar__footer--contact-undertext{
+    font-weight: lighter;
+}
+.cbar__footer--items{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 400px;
+    text-align: center;
+margin-top: 200px;
+}
+.cbar__footer--phone-images{
+    height: 100px;
+}
+.cbar__footer--address-images{
+    height: 100px;
+}
+.cbar__footer--timework-images{
+    height: 100px;
+}
